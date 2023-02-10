@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: #F2F2F2;
+}
+
+/* .firstbackimg{
+    transform: translate(173px,-102px);
+    height: 480px;
+    width: 282px;
+    position: absolute;
+} */
+
+.wrapper{
+ /* background-image: url(C:\Users\PCZONE.GE\Desktop\equalizer-landing-page\starter-code\assets\bg-pattern-1.svg); */
+}
+
+.logo{
+    height: 32px;
+    width: 147px;
+    margin-left: 25px;
+    margin-top: 40px;
+
+}
+
+.makeyoursound{
+    height: 144px;
+    width: 327px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;    
+    color: #191826;    
+    margin-left: 24px;
+    margin-top: 64px;
+}
+
+.systemaudiotext{
+    height: 156px;
+    width: 327px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;    
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.blackwrapper{
+    background-color: black;
+    height: 1024px;
+    width: 100%;
+    margin-top: 166px;
+   
+}
+
+
+
+.phone{
+    height: 430px;
+    width: 208px;
+    transform: translate(90px,-700px);
+   
+
+}
+
+.orangewrapper{
+    height: 546px;
+    width: 375px;
+    background-color:#FA7453 ;
+    border-radius: 12px;
+    transform: translate(0px,-506px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orangehead{
+    height: 40px;
+    width: 302px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;    
+    color: #FCFAF9;
+    margin-top: 48px;
+    
+}
+
+.orangetext{
+    width: 302px;
+    height: 140px;   
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    margin-top: 12px;
+}
+
+.pricemonth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 36px;
+    margin-right: 168px;
+}
+
+.price{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;    
+    color: #FCFAF9;
+
+}
+
+.month{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;    
+    height: 32px;
+    color: #FCFAF9;
+    margin-left: 16px;
+}
+
+.iosdowloaddiv{
+    height: 61px;
+    width: 296px;
+    border-radius: 12px;
+    background: #191826;
+    border-radius: 12px;
+    display: flex; 
+    flex-direction: row;      
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    margin-left: 42px;
+}
+
+.applelogo{
+    height: 15px;
+    width: 17px;
+   
+
+}
+
+.iosdowload{
+    margin-left: 8px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;  
+    text-align: center;
+    color: #FCFAF9;
+}
+
+.androiddowload{
+    height: 61px;
+    width: 296px;
+    background: #FCFAF9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42px;
+    margin-top: 16px;
+}
+
+.androidicon{
+    height: 17px;
+    width: 20px;
+    
+    border-radius: 0px;
+       
+}
+
+.android{
+    margin-left: 8px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;    
+    text-align: center;       
+    color: #191826;
+}
+
+.lasttexts{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lastlogo{
+    margin-top: 112px;
+    width: 146.09px;
+    height: 32px;
+    margin-left: 25px;
+}
+
+.allright2023{
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;    
+    margin-top: 32px;
+    margin-left: 24px;
+    height: 105px;
+    width: 327px;
+}
+
+.igfacebooktwitter{
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    margin-top: 64px;
+
+}
+
+.iconfacebook{
+    height: 20px;
+    width: 20px;
+}
+
+.iconinstagram{
+    height: 20px;
+    width: 20px;   
+    margin-left: 20px;
+}
+
+.icontwitter{
+    height: 20px;
+    width: 20px;   
+    margin-left: 20px;
+}
+
+@media (min-width: 768px){
+   
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+   
+    body{
+        display: flex;
+        flex-direction: column;
+        background: #F2F2F2;
+    }
+    
+.logo{
+    height: 32px;
+    width: 147px;
+    margin-left: 40px;
+    
+
+}
+
+.attern{
+    transform: translate(403px,-614px);
+    height: 300px;
+    width: 200px;
+}
+
+.blackwrapper{
+    height: 600px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.phone{
+    transform: translate(-151px,-103px);
+}
+
+.orangewrapper{
+    transform: translate(184px,-300px);
+}
+
+.lastlogo{
+    margin-top: 182px;
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+}
+
+.igfacebooktwitter{
+    margin-top: 277px;
+    margin-left: 190px;
+}}
+
+@media (min-width: 1280px){
+
+.logo{
+        margin-top: 62px;
+    }
+
+.attern{
+        transform: translate(1044px,-961px);
+    }
+       
+.makeyoursound{
+    height: 176px;
+    width: 1015px;
+    letter-spacing: -1px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+         
+    }
+    
+.systemaudiotext{
+    height: 102px;
+    width: 825px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+
+}
+
+.blackwrapper{
+    height: 600px;
+    width: 100%;
+    left: 165px;
+    top: 860px;
+    border-radius: 12px;
+}
+
+.orangewrapper{
+    transform: translate(540px,-264px);
+    height: 625px;
+    width: 446px;
+    border-radius: 12px;
+    transform: translate(513px,-567px);
+
+}
+
+.phone{
+    height: 642px;
+    width: 312px;
+    transform: translate(-142px,-127px);
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.igfacebooktwitter{
+    margin-left: 359px;
+}
+
+.iosdowloaddiv:hover{
+    background-color: #66E2DC;
+    cursor: pointer;
+}
+
+.androiddowload:hover{
+    background-color:#FFB964 ;
+    cursor: pointer;
+}
+}
